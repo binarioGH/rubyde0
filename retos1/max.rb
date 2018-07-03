@@ -9,9 +9,9 @@ class Main
 				puts"Son iguales."
 			end
 		end
-		print("Ingreza el primer numero: ")
+		print("Ingresa el primer numero: ")
 		n1 = gets.chomp.to_i
-		print("Ingreza el segundo numero: ")
+		print("Ingresa el segundo numero: ")
 		n2 = gets.chomp.to_i
 		max.call(n1, n2)		
 	end
