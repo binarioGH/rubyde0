@@ -1,7 +1,9 @@
 class Perro
-	def initialize()
+	def initialize(n)
+		@nombre = n
+		self.ladrar()
 	end
-	def ladrar
-		puts "guaf guaf"
+	def ladrar()
+		puts("#{@nombre}: guaf guaf")
 	end
 end
